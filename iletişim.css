@@ -1,0 +1,285 @@
+.ecolife3 {
+  position: absolute;
+  height: 11.33%;
+  width: 15.07%;
+  top: 2.34%;
+  left: 1.43%;
+  display: inline-block;
+  font-family: var(--font-dancing-script);
+  text-align: center;
+}
+.shopping-bag-icon3 {
+  position: absolute;
+  top: 33px;
+  left: 1245px;
+  width: 54px;
+  height: 49px;
+  overflow: hidden;
+}
+.ellipse-div {
+  width: 49px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+  height: 49px;
+  z-index: 0;
+}
+.icround-person-icon3 {
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 7px;
+  height: 31px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-div {
+  position: absolute;
+  top: 33px;
+  left: 1396px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+}
+.vector-icon10,
+.vector-icon9 {
+  position: absolute;
+  top: 33px;
+  left: 1323px;
+  width: 49px;
+  height: 49px;
+}
+.vector-icon10 {
+  top: 53px;
+  left: 1343px;
+  width: 10px;
+  height: 10px;
+}
+.alveri3,
+.anasayfa3,
+.letiim3 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.anasayfa3 {
+  width: 133px;
+  font-weight: 600;
+  height: 69px;
+}
+.alveri3,
+.letiim3 {
+  height: 69.4px;
+}
+.alveri3 {
+  width: 105.1px;
+  cursor: pointer;
+}
+.letiim3 {
+  width: 149px;
+  color: var(--color-seagreen);
+}
+.anasayfa-parent1 {
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 404px);
+  width: 807.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: var(--font-size-7xl);
+  color: var(--color-tan);
+}
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #8f9779;
+  width: 1471px;
+  height: 450px;
+}
+.bizimle-letiime-gein,
+.sosyal-medya-hesaplarmz {
+  position: absolute;
+  display: inline-block;
+  color: var(--color-teal);
+}
+.sosyal-medya-hesaplarmz {
+  top: 187px;
+  left: 77px;
+  font-weight: 800;
+  width: 317px;
+}
+.bizimle-letiime-gein {
+  top: 41px;
+  left: 1006px;
+  width: 347px;
+}
+.group-icon,
+.vector-icon11,
+.vector-icon12,
+.vector-icon13 {
+  position: absolute;
+  height: 100%;
+  width: 12.91%;
+  top: 0;
+  right: 87.09%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon,
+.vector-icon12,
+.vector-icon13 {
+  right: 58.04%;
+  left: 29.05%;
+}
+.group-icon,
+.vector-icon13 {
+  right: 0;
+  left: 87.09%;
+}
+.group-icon {
+  right: 29.05%;
+  left: 58.04%;
+}
+.vector-group,
+.vector-icon14 {
+  position: absolute;
+  height: 5.07%;
+  width: 14.53%;
+  top: 28.64%;
+  right: 79.76%;
+  bottom: 66.29%;
+  left: 5.71%;
+}
+.vector-icon14 {
+  height: 55.61%;
+  width: 9.38%;
+  top: 0;
+  right: 90.62%;
+  bottom: 44.39%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 8px;
+  left: 45.3px;
+  font-weight: 800;
+  display: inline-block;
+  width: 249px;
+}
+.vector-container,
+.vector-icon15 {
+  position: absolute;
+  height: 9.11%;
+  width: 20.01%;
+  top: 21.78%;
+  right: 11.56%;
+  bottom: 69.11%;
+  left: 68.44%;
+}
+.vector-icon15 {
+  height: 58.91%;
+  width: 10.84%;
+  top: 0;
+  right: 89.16%;
+  bottom: 41.09%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.supportecolifecom {
+  position: absolute;
+  top: 5.7px;
+  left: 45.3px;
+  font-weight: 800;
+  display: inline-block;
+  width: 273px;
+}
+.group-div,
+.vector-icon16 {
+  position: absolute;
+  height: 8.6%;
+  width: 21.64%;
+  top: 34.07%;
+  right: 9.93%;
+  bottom: 57.33%;
+  left: 68.44%;
+}
+.vector-icon16 {
+  height: 16.09%;
+  width: 6.06%;
+  top: 0;
+  right: 93.94%;
+  bottom: 83.91%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ecolife-green-hq {
+  margin: 0;
+}
+.ecolife-green-hq-123-container {
+  position: absolute;
+  top: 9.7px;
+  left: 45.3px;
+  font-weight: 800;
+  display: inline-block;
+  width: 312.6px;
+}
+.vector-parent1 {
+  position: absolute;
+  height: 31.49%;
+  width: 24.33%;
+  top: 49.18%;
+  right: 7.23%;
+  bottom: 19.33%;
+  left: 68.44%;
+}
+.greenify-all,
+.terms-services {
+  position: absolute;
+  top: 372px;
+  left: 91.9px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 133.3px;
+}
+.greenify-all {
+  top: 411px;
+  width: 275.8px;
+}
+.footer {
+  position: absolute;
+  top: 207px;
+  left: -4px;
+  width: 1471px;
+  height: 450px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.iletiim {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-49xl);
+  color: var(--color-seagreen);
+  font-family: var(--font-open-sans);
+}
