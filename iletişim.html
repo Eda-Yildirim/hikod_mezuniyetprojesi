@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./iletiim.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dancing Script:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="iletiim">
+      <b class="ecolife3">EcoLife</b>
+      <img class="shopping-bag-icon3" alt="" src="./public/shopping-bag.svg" />
+
+      <div class="frame-div">
+        <div class="ellipse-div"></div>
+        <img
+          class="icround-person-icon3"
+          alt=""
+          src="./public/icroundperson.svg"
+        />
+      </div>
+      <img class="vector-icon9" alt="" src="./public/vector1.svg" />
+
+      <img class="vector-icon10" alt="" src="./public/vector2.svg" />
+
+      <div class="anasayfa-parent1" id="frameContainer1">
+        <div class="anasayfa3">Anasayfa</div>
+        <div class="alveri3" id="alveriText">Alışveriş</div>
+        <div class="alveri3" id="bloglarText">Bloglar</div>
+        <div class="letiim3">İletişim</div>
+      </div>
+      <div class="footer">
+        <div class="footer-child"></div>
+        <div class="sosyal-medya-hesaplarmz">
+          Sosyal Medya Hesaplarımızı Takip Edin !
+        </div>
+        <b class="bizimle-letiime-gein">Bizimle İletişime Geçin </b>
+        <div class="vector-group">
+          <img class="vector-icon11" alt="" src="./public/vector5.svg" />
+
+          <img class="vector-icon12" alt="" src="./public/vector6.svg" />
+
+          <img class="vector-icon13" alt="" src="./public/vector7.svg" />
+
+          <img class="group-icon" alt="" src="./public/group.svg" />
+        </div>
+        <div class="vector-container">
+          <img class="vector-icon14" alt="" src="./public/vector8.svg" />
+
+          <div class="div">+90 516 985 25 36</div>
+        </div>
+        <div class="group-div">
+          <img class="vector-icon15" alt="" src="./public/vector9.svg" />
+
+          <div class="supportecolifecom">support@ecolife.com</div>
+        </div>
+        <div class="vector-parent1">
+          <img class="vector-icon16" alt="" src="./public/vector10.svg" />
+
+          <div class="ecolife-green-hq-123-container">
+            <p class="ecolife-green-hq">EcoLife Green HQ</p>
+            <p class="ecolife-green-hq">123 Greenway Lane</p>
+            <p class="ecolife-green-hq">Sustainable City, ECO 123</p>
+            <p class="ecolife-green-hq">Earth</p>
+          </div>
+        </div>
+        <div class="terms-services">terms & services</div>
+        <div class="greenify-all">Greenify @ all right reserved 2023</div>
+      </div>
+    </div>
+
+    <script>
+      var alveriText = document.getElementById("alveriText");
+      if (alveriText) {
+        alveriText.addEventListener("click", function (e) {
+          window.location.href = "./alveri-sayfas.html";
+        });
+      }
+      
+      var bloglarText = document.getElementById("bloglarText");
+      if (bloglarText) {
+        bloglarText.addEventListener("click", function (e) {
+          window.location.href = "./bloglar.html";
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>
