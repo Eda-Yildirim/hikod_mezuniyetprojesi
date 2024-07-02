@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+   
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dancing Script:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ana-sayfa">
+      <b class="ecolife">EcoLife</b> 
+      <img class="shopping-bag-icon" alt="" src="./public/shopping-bag.svg" /> 
+      <div class="ellipse-parent"> 
+        <div class="frame-child"></div>
+        <img
+          class="icround-person-icon"
+          alt=""
+          src="./public/icroundperson.svg"
+        />
+      </div>
+      <div class="anasayfa-parent">
+        <div class="anasayfa">Anasayfa</div>
+        <div class="alveri" id="alveriText">Alışveriş</div>
+        <div class="alveri" id="bloglarText">Bloglar</div>
+        <div class="letiim" id="letiimText">İletişim</div>
+      </div>
+      <div class="srdrlebilir-yaam-iin">
+        Sürdürülebilir yaşam için aradığın her şey burada
+      </div>
+      <div class="hogeldiniz">Hoşgeldiniz</div>
+      <div class="ana-sayfa-child" id="rectangle"></div>
+      <div class="alverie-bala">Alışverişe Başla</div>
+      <img
+        class="natural-food-icon"
+        alt=""
+        src="./public/natural-food@2x.png"
+      />
+
+      <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+      <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+      <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+      <img
+        class="happy-bunch-party-of-three"
+        alt=""
+        src="./public/happy-bunch-party-of-three@2x.png"
+      />
+    </div>
+
+    <script> 
+      var alveriText = document.getElementById("alveriText");
+      if (alveriText) {
+        alveriText.addEventListener("click", function (e) {
+          window.location.href = "./alveri-sayfas.html";
+        });
+      }
+      
+      var bloglarText = document.getElementById("bloglarText");
+      if (bloglarText) {
+        bloglarText.addEventListener("click", function (e) {
+          window.location.href = "./bloglar.html";
+        });
+      }
+      
+      var letiimText = document.getElementById("letiimText");
+      if (letiimText) {
+        letiimText.addEventListener("click", function (e) {
+          window.location.href = "./iletiim.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./alveri-sayfas.html";
+        });
+      }
+      </script>
+  </body>
+</html>
