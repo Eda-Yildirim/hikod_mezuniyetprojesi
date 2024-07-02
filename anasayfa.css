@@ -1,0 +1,176 @@
+.ecolife {
+  position: absolute;
+  height: 11.33%;
+  width: 15.07%;
+  top: 1.46%;
+  left: 1.43%;
+  display: inline-block;
+  font-family: var(--font-dancing-script);
+  color: var(--color-seagreen);
+  text-align: center;
+}
+.shopping-bag-icon {
+  position: absolute;
+  top: 33px;
+  left: 1245px;
+  width: 54px;
+  height: 49px;
+  overflow: hidden;
+}
+.frame-child {
+  width: 49px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+  height: 49px;
+  z-index: 0;
+}
+.icround-person-icon {
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 7px;
+  height: 31px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 33px;
+  left: 1396px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+}
+.alveri,
+.anasayfa,
+.letiim {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.anasayfa {
+  width: 133px;
+  font-weight: 600;
+  color: var(--color-mediumseagreen);
+  height: 69px;
+}
+.alveri,
+.letiim {
+  width: 105.1px;
+  height: 69.4px;
+  cursor: pointer;
+}
+.letiim {
+  width: 149px;
+}
+.anasayfa-parent {
+  position: absolute;
+  top: 39px;
+  left: calc(50% - 404px);
+  width: 807.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-7xl);
+  color: var(--color-tan);
+}
+.hogeldiniz,
+.srdrlebilir-yaam-iin {
+  position: absolute;
+  top: 440px;
+  left: 44px;
+  font-size: 40px;
+  display: inline-block;
+  width: 685px;
+  height: 87px;
+}
+.hogeldiniz {
+  top: 345px;
+  left: -88px;
+  font-size: 64px;
+  font-weight: 900;
+  font-family: var(--font-playfair-display);
+  text-align: center;
+  width: 629px;
+  height: 95px;
+}
+.ana-sayfa-child {
+  position: absolute;
+  top: 745px;
+  left: 21px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumseagreen);
+  width: 344px;
+  height: 95px;
+  cursor: pointer;
+}
+.alverie-bala {
+  position: absolute;
+  top: 769px;
+  left: 88px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  color: var(--color-white);
+  display: inline-block;
+  width: 242px;
+  height: 48px;
+}
+.natural-food-icon {
+  position: absolute;
+  top: 288px;
+  left: 422px;
+  width: 80px;
+  height: 75px;
+  object-fit: cover;
+}
+.vector-icon {
+  position: absolute;
+  height: 11.04%;
+  width: 6.53%;
+  top: 86.62%;
+  right: 65.76%;
+  bottom: 2.34%;
+  left: 27.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  top: 33px;
+  left: 1323px;
+  width: 49px;
+  height: 49px;
+}
+.vector-icon2 {
+  top: 53px;
+  left: 1343px;
+  width: 10px;
+  height: 10px;
+}
+.happy-bunch-party-of-three {
+  position: absolute;
+  top: 399px;
+  left: 592px;
+  width: 875px;
+  height: 625px;
+  object-fit: cover;
+}
+.ana-sayfa {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-49xl);
+  color: var(--color-mediumseagreen);
+  font-family: var(--font-open-sans);
+}
